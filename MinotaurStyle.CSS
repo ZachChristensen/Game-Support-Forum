@@ -1,0 +1,231 @@
+/*Website designed by Zach Christensen*/
+
+*{
+	margin:0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#EEF2FF;
+    font-family:Calibri, sans-serif;
+}
+
+#content{
+    border-radius: 5px;
+	margin-top:1em;
+	width:80%;
+    max-width:75em;
+    min-width:40em;
+	background-color:#CDDAE8;
+	margin-left: auto;
+	margin-right: auto;
+    overflow:hidden;
+}
+
+.button {
+	background-color:#CECDE8;
+	border:1px solid #DFDEF9;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	padding:9px 23px;
+	text-decoration:none;
+	float:right;
+	display:inline;
+	margin: 0.3em 1em;
+	margin-bottom: 0;
+}
+.button:hover {
+	background-color:#E0D7C6;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#backBtn{
+	float:left;
+}
+
+.thread{
+	border-radius: 10px 0px 0px 0px;
+    background-color:#CECDE8;
+    overflow:auto;
+    margin:auto;
+    margin:1em;
+    display:inline-block;
+    width:calc(100% - 2em);
+}
+
+.boardThread{
+	cursor:pointer;
+}
+
+.imgContainer{
+    margin:1em;
+    width:170px;
+    height:100%;
+    overflow:auto;
+    display:inline-block;
+    vertical-align:top;
+    padding-right:1em;
+    border-right: 1px solid #444;
+}
+
+.imageLink{
+	text-align:center;
+	font-size:0.8em;
+	color:#34345C;
+}
+
+.imageLink:hover{
+	color:red;
+}
+
+.postImg{
+    max-height:150px;
+    max-width:150px;
+    display:block;
+    margin:auto;
+    padding:0;
+    vertical-align:top;
+}
+
+.postInfo{
+    text-align:right;
+    width:auto;
+    margin:1em;
+    display:inline-block;
+    margin:0;
+    
+}
+
+.postInfo p{
+    font-size: 14;
+}
+
+.name{
+    color:#4E9E00;
+}
+
+.otherInfo{
+    
+}
+
+.subject{
+    color:#5A1743;
+}
+
+.postText{
+    margin:1em;
+    display:inline-block;
+	width: calc(100% - 250px);
+}
+
+.post{
+    border-radius: 10px 0px 0px 0px;
+    background-color:#EAE1FF;
+    width:calc(100% - 3em);
+    height:auto;
+    margin-left:3em;
+    margin-bottom:1em;
+}
+
+h1{
+	text-align:center;
+	padding-top:1.5em;
+}
+
+h3{
+	text-align:center;
+	padding-top:0.5em;
+    margin-bottom:0;
+}
+
+#description{
+	margin:0;
+	margin-bottom:2em;
+	padding:0;
+	text-align:center;
+	font-style:italic;
+}
+
+#copyright{
+	color:#255;
+	margin-left:1em;
+	margin-bottom:5px;
+}
+
+.form{
+	margin:auto;
+	width:415px;
+	padding-bottom:1em;
+	padding-top:1em;
+}
+
+#homeTable{
+	border-collapse: collapse;
+	margin:auto;
+	margin-bottom:2em;
+}
+
+#homeTable tr{
+	outline: thin solid;
+}
+
+#homeTable th{
+	padding-right:1em;
+	
+}
+#homeTable td{
+	padding-right:1em;
+}
+
+#homeTable td:not(:first-child){
+	text-align:center;
+}
+
+#homeTable tr td{
+	border:0;
+}
+
+#homeTable tr:hover:not(:first-child){
+	background-color:#CECDE8;
+	cursor:pointer;
+}
+
+#homeTable td:not(:first-child){
+	font-size:1.2em;
+	font-weight: 300;
+}
+
+#homeTableContainer{
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.homeBoardTitle{
+	font-size:1.4em;
+	font-weight: 300;
+}
+
+.homeBoardDesc{
+	font-style:italic;
+}
+.newsLink{
+	color:#34345C;
+}
+.newsLink:hover{
+	color:red;
+}
+#newsContainer{
+	margin-left:10%;
+	margin-right:10%; 
+	background-color:#CECDE8;
+	border-radius:10px;
+	padding:10px;
+	margin-bottom:1em;
+}
